@@ -114,6 +114,6 @@ And finally here's the [GitHub commit](https://github.com/gnardini/blog/commit/5
 
 ## Final Thoughts
 
-It's been really fun using Kamara to build websites lately and I'll keep building new ones and improving the plugin. There's already a few in the pipeline and I've been using it on existing projects as well (although there are some limitations with big ones). Hopefully I'll have a version ready to share soon. It's already ready actually, it just has some rough edges, but if you'd like to give it a try reach out to me!
+It's been really fun using Kamara to build websites lately and I'll keep building new ones and improving the plugin. There's already a few in the pipeline and I've been using it on existing projects as well (although there are some limitations with big ones). The coding speed that can be achieved is amazing. Hopefully I'll have a version ready to share soon. It's already ready actually, it just has some rough edges, but if you'd like to give it a try reach out to me!
 
 I've also been enjoying writing. I can see myself doing this more often, the whole process is fun and rewarding. What helped was changing my mentality a bit and caring a lot less about whether people will read it or not. I'm writing for myself more than I'm writing for others, which helps a lot.
