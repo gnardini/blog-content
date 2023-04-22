@@ -2,7 +2,7 @@
 
 Yeah, another AI code-writing post. I'll go with the disclaimer first, I'm working on a VS Code plugin called Kamara that writes code for you, you just need to review its output and make sure it works as intended. I thought this was a great project to show it off, so here I go.
 
-### Background
+## Background
 
 I've been thinking about writing for a while. When I was a kid I used to love writing short stories, I did great at school and greatly enjoyed it. Unfortunately, as I grew older I decided to study Software Engineering where I didn't have writing classes anymore, so I stopped writing altogether.
 
@@ -11,7 +11,7 @@ Over the past few years I started many drafts, but never completed and even less
 Well, I published my first post on Substack last week, so I got over the initial hump. I like the website, but I also own the domain [https://gnardini.com](https://gnardini.com) and figured writing a blog with Kamara should be simple and gives me a nice thing to write about, so that's what I'm going to do. I know Substack has support for custom domains but I just don't want to pay them for the feature.
 
 
-### Project setup
+## Project setup
 
 I know it's kind of overkill for a simple blog, but my main stack is Typescript, Next.js, Tailwind. I have a simple template I use on [https://github.com/gnardini/nextjs-template](https://github.com/gnardini/nextjs-template) so I'm going to go with that for familiarity's sake.
 
@@ -19,17 +19,19 @@ The website will have my name, my picture, a paragraph describing who I am and a
 
 The first step is to clone the template and open VSCode with Kamara ready. Here's what I'm looking at:
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image10.png" alt= “Kickoff” width="60%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image10.png" alt= “Kickoff”>
+
+## Start Building!
 
 Time for the first instruction: "Create the landing page of my website. It should include my name, my picture, a paragraph describing who I am. Put all those things in one component and add a different Blog component, which should be empty for now."
 
 Here's the first output:
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image6.png" alt="First Output" width="70%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image6.png" alt="First Output">
 
 And it created the index page like I asked it to
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image9.png" alt="Home Component" width="40%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image9.png" alt="Home Component">
 
 [GitHub commit](https://github.com/gnardini/blog/commit/a83185dd52aa1914cdcabf6ae9c28fb21a35cc99)
 
@@ -37,7 +39,7 @@ Doesn't look great, but it did what I asked it to. I updated the name, image and
 
 After editing the text and minor touch up here's how it looks:
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image11.png" alt="First Output" width="50%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image11.png" alt="First Output">
 
 [GitHub commit](https://github.com/gnardini/blog/commit/a91020f8f8954d716eb005767296ea0e14c5f146)
 
@@ -53,8 +55,8 @@ There's more work to be done, but I think this is a good first step. If I give i
 
 It got it mostly right. The only mistake it made is that it repeated the `Post` interface in both the index page and the Blog component, so I deleted one manually and imported it from the other file. Here's the *getStaticProps* implementation:
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image8.png" alt="getStaticProps" width="50%">
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image4.png" alt="Blog Posts" width="50%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image8.png" alt="getStaticProps">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image4.png" alt="Blog Posts">
 
 Time for the next instruction: "Make each post in the Blog component clickable. When clicked it should open a blog/[slug] page. [slug] should be the sluggified title. Add a new page on pages/[slug].ts that has a getStaticProps like the index page. It should filter through the posts list until it finds the right article and use the content field to fetch the full article from the repo. The content field has a path to a markdown file in the blog-content repo. Render the markdown on the page using a library"
 
@@ -66,15 +68,15 @@ It worked! Mostly. It did a couple things I didn't know how to do off the top of
 
 * It automatically added a library to render markdown:
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image1.png" alt="Add dependency" width="30%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image1.png" alt="Add dependency">
 
 * It wrote the slugify function:
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image5.png" alt="slugify" width="40%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image5.png" alt="slugify">
 
 * It added a getStaticPaths function I assume to cache all the available pages at build time. I was wondering how this was going to work since I was using getStaticProps, but haven't used Nextjs like this before to be honest so I wasn't sure. Happy I don't have to google it though :) 
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image3.png" alt="getStaticPaths" width="40%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image3.png" alt="getStaticPaths">
 
 It made two mistakes:
 
@@ -83,13 +85,13 @@ It made two mistakes:
 
 It looks awful though. The image is too big and there's no spacing between paragraphs and the title is repeated. They all seem like solvable things though, so I'll just keep going for now and do a manual CSS pass at the end.
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image2.png" alt="Blog Posts" width="50%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image2.png" alt="Blog Posts">
 
 I'm not happy with the navigation right now. I'll give it a prompt to try to improve it: "Add a Header to all pages. The header should have my picture (you can find it in the Landing component) at the left with my name next to it. To the right of the header add an "About" text that links to the /about page which should just show the Landing component and a Twitter icon that should open [https://twitter.com/gonza_nardini](https://twitter.com/gonza_nardini)"
 
 I'm honestly not sure how I want the page to look yet, but this seems like a good direction.
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image7.png" alt="Header" width="50%">
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image7.png" alt="Header">
 
 [GitHub commit](https://github.com/gnardini/blog/commit/15cbe7ed742c06bef8e362392bde69346938fc6e)
 
