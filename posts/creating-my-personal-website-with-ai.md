@@ -105,3 +105,15 @@ One problem it has is that the picture/name at the top left doesn't navigate bac
 Nailed it: [GitHub commit](https://github.com/gnardini/blog/commit/f5c021188579d448f02b2c74a9e6be6f420e056a)
 
 Alright, I think feature-wise we're good now, I'll just add some styles manually. I've found that for CSS/UI work GPT doesn't always do the best job. Maybe I'm just prompting it wrong, since it's not my strength either and I don't have a great eye for building beautiful designs.
+
+[...] CSS writing in progress [...]
+
+Done! I used one extra prompt: "Add a Head section with a title and description. The title of each blog page should be the title of the article and for the main one it should be just "Gonza Nardini"" which it got almost right, I just had to move one of the created Head components from the Home page to the _app file so it's used as default. [GitHub commit](https://github.com/gnardini/blog/commit/5e7509c223dcd92a47fcf49804ca85bc2e6fa428)
+
+And finally here's the [GitHub commit](https://github.com/gnardini/blog/commit/56a8e6f3d47ffd56b6c750f08de350f539c38ad4) with the CSS changes. You can check out the final result on https://gnardini.com 
+
+## Final Thoughts
+
+It's been really fun using Kamara to build websites lately and I'll keep building new ones and improving the plugin. There's already a few in the pipeline and I've been using it on existing projects as well (although there are some limitations with big ones). Hopefully I'll have a version ready to share soon. It's already ready actually, it just has some rough edges, but if you'd like to give it a try reach out to me!
+
+I've also been enjoying writing. I can see myself doing this more often, the whole process is fun and rewarding. What helped was changing my mentality a bit and caring a lot less about whether people will read it or not. I'm writing for myself more than I'm writing for others, which helps a lot.
