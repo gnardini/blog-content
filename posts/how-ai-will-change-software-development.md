@@ -1,4 +1,4 @@
-# How AI will change Software Development
+# How AI Will Change Software Development
 
 This piece focuses on the macro changes that are coming. For the changes in actual development workflow, I will be writing a different piece shortly.
 

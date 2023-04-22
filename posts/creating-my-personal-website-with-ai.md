@@ -1,4 +1,4 @@
-# Creating my personal website with AI
+# Creating My Personal Website With AI
 
 Yeah, another AI code-writing post. I'll go with the disclaimer first, I'm working on a VS Code plugin called Kamara that writes code for you, you just need to review its output and make sure it works as intended. I thought this was a great project to show it off, so here I go.
 
@@ -19,7 +19,8 @@ The website will have my name, my picture, a paragraph describing who I am and a
 
 The first step is to clone the template and open VSCode with Kamara ready. Here's what I'm looking at:
 
-<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image10.png" alt= “Kickoff”>
+<img src="https://raw.githubusercontent.com/gnardini/blog-content/main/images/personal-website/image10.png" alt=“Kickoff”>
+
 
 ## Start Building!
 
@@ -81,7 +82,7 @@ It worked! Mostly. It did a couple things I didn't know how to do off the top of
 It made two mistakes:
 
 * It put an &lt;a> tag inside a &lt;Link> tag, which Next.js doesn't allow. I just removed the inner &lt;a> tag to fix it.
-* To fetch the content of each post it was doing `const contentResponse = await axios.get(post.content);` This was trying to read the content from localhost instead of the GitHub repo. I just changed the URL to ```const contentResponse = await axios.get(`https://raw.githubusercontent.com/gnardini/blog-content/main/${post.content}`);``` and it worked.
+* To fetch the content of each post it was doing `const contentResponse = await axios.get(post.content);` This was trying to read the content from localhost instead of the GitHub repo. I just changed the URL to ```const contentResponse = await axios.get(`https://raw.githubusercontent.com/ gnardini/blog-content/main/${post.content}`);``` and it worked.
 
 It looks awful though. The image is too big and there's no spacing between paragraphs and the title is repeated. They all seem like solvable things though, so I'll just keep going for now and do a manual CSS pass at the end.
 
