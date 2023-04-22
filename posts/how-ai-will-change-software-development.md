@@ -2,7 +2,7 @@
 
 This piece focuses on the macro changes that are coming. For the changes in actual development workflow, I will be writing a different piece shortly.
 
-![Ilustration]()
+![Illustration](https://raw.githubusercontent.com/gnardini/blog-content/main/images/how-ai-software.jpeg)
 
 Today writing software is expensive. Even simple apps cost a lot to build. Anything that's more than a landing page requires custom code and the people that know how to write that custom code are very limited and in high demand. They are also generally quite slow at writing said software. Lots of people have ideas about things to build, businesses to create or even just for fun projects, but the barrier of creating code is huge. Any startup requires a technical cofounder or is mostly doomed to fail and working with software development firms can be nightmarish due to how difficult the process is.
 
