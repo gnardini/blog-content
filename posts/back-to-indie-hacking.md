@@ -1,0 +1,19 @@
+# Back to indie hacking - this time permanently!
+
+Last year I quit what I thought at the time was my last job to try and make a living working on my own projects on my own terms. I made some mistakes initially though. I received some grants to work on my crypto-related project and participated and won some money from a few hackathons. This "free money" made me not appreciate it and not focus on the important things - getting customers and charging them for the service I was providing. Instead, it allowed me to focus on writing code and implementing fun things without worrying about who was going to use it.
+
+When I realized what had happened late last year I put pause on the project since I couldn't see a path to make it profitable and started two new projects with much clearer ways of making money sustainably: [ARAM Zone](https://aram.zone/) and [Kamara](https://kamaraapp.com/). ARAM Zone is a stats website for League of Legends and would make money from ads, so it needs a high number of users to work. Kamara is a VS Code extension that uses GPT-4 to write and edit code right from the editor. It works with a credits system for now that charges a premium over the OpenAI credits used.
+
+Both were starting to grow and I felt quite motivated working on them, but I made another mistake: I got a job. I wasn't looking for it, but one of the judges from one of the hackathons I participated in (got 2nd place) put me in contact with the CEO of a local high-growth company focusing on making crypto usable and available for everyone, not just experts and nerds. I already knew, used and really liked the company, the role leading the new product was very interesting and the CEO was quite convincing so against my instincts and desires I took the job.
+
+Even though the role was perfect for me, I really can't stand the day to day of working at a company anymore. After tasting the freedom and lifestyle of owning my own time and efforts, going back is just not possible for me anymore. I quit almost 6 months after joining, feeling like I wasted 6 months of my life on something I knew I didn't want. If I have to take anything positive from the experience, it is that before it I used to think that if indie hacking didn't work for me I could always go back to a normal job. That's really not in the cards for me anymore so I really need to make this work now. It gave me renewed energy and deep motivation to not need a job ever again.
+
+## The New Plan
+
+So, what now? I'll try to keep working on both projects, working on the one that either motivates me the most each week or is getting more traction. ARAM Zone is a great challenge in learning about SEO and marketing, since there's enough competition to prove that there's definitely a need for that sort of tool but also room for creating something better or different than them. This week there's a new mode of League of Legends called Soul Fighter so my goal for this week and next is to create the best stats website for it.
+
+I really like working on LoL stats websites because I always used them and liked stats and feel like there's a lot of marketing learning opportunities in it, which is something I really need if I want to succeed at this. I'd also like to explore creating stats websites for professional sports in the future, like pro LoL, football, tennis and others. I don't want to get too ahead of myself though, so just LoL for now!
+
+As to Kamara, I think it probably has higher money-making potential than ARAM Zone but it's also significantly more technically challenging to build. I like the challenge but I think I'll have to be a bit more patient if I want to see money coming out of it so I'll start by trying to get a "quick win" and some cash flow from ARAM Zone before focusing more on Kamara.
+
+That's it for now! I'll post weekly about my progress on these and future projects to keep myself honest
