@@ -1,17 +1,22 @@
 [
   {
+    "title": "Dealing with Indexing Bots",
+    "date": "2023-08-08",
+    "content": "posts/04-fighting-indexing-bots.md"
+  },
+  {
     "title": "Back to Indie Hacking - This Time Permanently!",
     "date": "2023-07-17",
-    "content": "posts/back-to-indie-hacking.md"
+    "content": "posts/01-back-to-indie-hacking.md"
   },
   {
     "title": "Creating My Personal Website With AI",
     "date": "2023-04-22",
-    "content": "posts/creating-my-personal-website-with-ai.md"
+    "content": "posts/02-creating-my-personal-website-with-ai.md"
   },
   {
     "title": "How AI Will Change Software Development",
     "date": "2023-04-15",
-    "content": "posts/how-ai-will-change-software-development.md"
+    "content": "posts/03-how-ai-will-change-software-development.md"
   }
 ]
