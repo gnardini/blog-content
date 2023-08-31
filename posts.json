@@ -1,5 +1,10 @@
 [
   {
+    "title": "How I use AI to code",
+    "date": "2023-08-31",
+    "content": "posts/05-how-i-use-ai-to-code.md"
+  },
+  {
     "title": "Dealing with Indexing Bots",
     "date": "2023-08-08",
     "content": "posts/04-fighting-indexing-bots.md"
