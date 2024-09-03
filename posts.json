@@ -1,5 +1,10 @@
 [
   {
+    "title": "I'm Lost",
+    "date": "2024-09-02",
+    "content": "posts/08-im-lost.md"
+  },
+  {
     "title": "Building an AI-Agent Tool for Writing Code",
     "date": "2024-08-18",
     "content": "posts/07-building-an-ai-agent-tool-for-writing-code.md"
