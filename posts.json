@@ -1,6 +1,11 @@
 [
   {
-    "title": "I'm starting a 4 week challenge",
+    "title": "Project 1/10: Phinxer - Affordable and simple Web Analytics",
+    "date": "2024-09-14",
+    "content": "posts/10-phinxer-analytics.md"
+  },
+  {
+    "title": "I'm starting a 10-startups-in-4-weeks challenge",
     "date": "2024-09-09",
     "content": "posts/09-4-week-challenge.md"
   },
